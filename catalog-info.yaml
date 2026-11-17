@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: towerlab
+  description: A tower defense game in Java using Swing for the GUI, demonstrating Object-Oriented Programming principles.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - java
+    - swing
+    - awt
+spec:
+  type: library
+  lifecycle: experimental
+  owner: user:kavyan256
